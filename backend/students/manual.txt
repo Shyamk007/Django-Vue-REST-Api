@@ -1,0 +1,9 @@
+the basic things are like installing the djangorestframework and installing the required dependencies
+after doing it define the models in models.py of the structure you want to add in the database
+after that you have to create a url in your students folder after that you also have to edit the urls.py in the main projects folder
+the urls.py in the main folder requires to edit because we that url we are fetching are just in the students app we need to
+make sure that they work in the django app that we are creating we also need to import the routers so that it can work seamlessly
+after that we will declare the stuff we want in the students/urls.py and will work on the views.py serializers.py 
+since the data we are rendering is array we need to serialize and deserialize it so we will edit the serializers.py
+and afterwards we will make the necessary changes in the views.py so that it can work easily
+this is the basic rough outline to make your API work
